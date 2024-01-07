@@ -3,7 +3,7 @@ import axios from 'axios';
 import Swal from 'sweetalert2';
 import { Button } from 'react-bootstrap';
 
-const UploadButton = () => {
+const Interface1 = () => {
   const [showProcessButton, setShowProcessButton] = useState(false);
 
   const handleUpload = async () => {
@@ -64,4 +64,4 @@ const UploadButton = () => {
   );
 };
 
-export default UploadButton;
+export default Interface1;

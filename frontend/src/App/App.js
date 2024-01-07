@@ -1,19 +1,19 @@
+import Interface1 from '../Compenents/Interface1';
+import Interface3 from '../Compenents/Interface3';
 import './App.css';
 import {
   BrowserRouter as Router,
   Routes,
   Route,
-  
 } from "react-router-dom";
-import Fileupload from './components/Fileupload';
-import Home from './components/Home';
+
 function App() {
   return (
     <Router>
     <Routes>
-    <Route path="/" element={<Fileupload />} />
-    <Route path="/fileupload" element={<Fileupload />} />
-    <Route path="/interface3" element={<Home />} />
+    <Route path="/" element={<Interface1 />} />
+    <Route path="/fileupload" element={<Interface1 />} />
+    <Route path="/interface3" element={<Interface3 />} />
     </Routes>
     </Router>
   );
